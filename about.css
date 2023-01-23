@@ -1,5 +1,82 @@
-.container1{
+.worldfest{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+
+}
+
+.schedule{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+h2 {
+  color: lightblue;
+}
+
+.events{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.food{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item1 {
+  width: 250px;
+  margin-left: 10px;
+  margin-right:10px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  border:solid #fff;  
+  border-width:6px 6px 20px 6px;  
+}
+
+.talent{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.workshops{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+body 
+{
+height: 125vh;
+margin-top: 80px;
+padding: 30px;
+background-size: cover;
+font-family: sans-serif;
+background: rgba(0, 128, 0, 0.3)
+
+}
+header {
+background-color: lightblue;
+position: fixed;
+left: 0;
+right: 0;
+top: 5px;
+height: 40px;
+display: flex;
+align-items: center;
+box-shadow: 0 0 25px 0 black;
+}
+header * {
+display: inline;
+}
+header li {
+margin: 20px;
+}
+header li a {
+color: blue;
+text-decoration: none;
 }

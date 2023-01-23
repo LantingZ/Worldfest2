@@ -5,6 +5,8 @@ margin-top: 80px;
 padding: 30px;
 background-size: cover;
 font-family: sans-serif;
+background: rgba(0, 128, 0, 0.3)
+
 }
 header {
 background-color: lightblue;
@@ -26,4 +28,19 @@ margin: 20px;
 header li a {
 color: blue;
 text-decoration: none;
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
 }
