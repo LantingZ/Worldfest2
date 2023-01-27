@@ -4,20 +4,19 @@ height: 125vh;
 margin-top: 80px;
 padding: 30px;
 background-size: cover;
-font-family: sans-serif;
-background: rgba(0, 128, 0, 0.3)
+font-family: monospace;
+background: rgba(0, 121, 198, 1)
 
 }
 header {
-background-color: lightblue;
 position: fixed;
 left: 0;
 right: 0;
-top: 5px;
-height: 40px;
+top: 0px;
+height: 80px;
 display: flex;
 align-items: center;
-box-shadow: 0 0 25px 0 black;
+font-size: 20px;
 }
 header * {
 display: inline;
@@ -26,21 +25,83 @@ header li {
 margin: 20px;
 }
 header li a {
-color: blue;
+color: #ffffff;
 text-decoration: none;
+font-weight: 600;
+
 }
-a:link {
-  text-decoration: none;
+.welcome1{
+  color: #ffffff;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 0.5rem;
+}
+.welcome2{
+  color: #ffffff;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 0.5rem;
 }
 
-a:visited {
-  text-decoration: none;
+
+.logo{
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 30%;
+  margin-right: 30%;
 }
 
-a:hover {
-  text-decoration: underline;
+button{
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding:0.5rem 1rem;
+  margin-bottom:1rem;
+  background: #ABDEFF;
+  border-color: #ABDEFF;
+  border-radius:5px;
+  border-width: 5px;
+  border-style: solid;
+  cursor:pointer;
+  font-family: monospace;
+  font-size:100 px;
+  font-weight: 500;
+  margin: 10px;
+  
 }
 
-a:active {
-  text-decoration: underline;
+.brochure{
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding:0.5rem 1rem;
+  margin-bottom:.5rem;
+  background: #ABDEFF;
+  border-color: #ABDEFF;
+  border-radius:5px;
+  border-width: 5px;
+  border-style: solid;
+  cursor:pointer;
+  font-family: monospace;
+  font-size:100 px;
+  font-weight: 500;
+  margin: 5px;
+}
+
+button:hover {
+  background-color: #ABDEFF; /* Green */
+  color: #000000;
+  border-color: #FFFFFF;
+
 }

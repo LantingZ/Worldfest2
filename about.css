@@ -2,6 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  color: white;
 
 }
 
@@ -12,7 +13,7 @@
 }
 
 h2 {
-  color: lightblue;
+  color: white;
 }
 
 .events{
@@ -28,13 +29,15 @@ h2 {
 }
 
 .item1 {
-  width: 250px;
+  height:200px;
+  width: 200px;
   margin-left: 10px;
   margin-right:10px;
   margin-bottom: 10px;
   margin-top: 20px;
   border:solid #fff;  
-  border-width:6px 6px 20px 6px;  
+  border-width:10px 10px 50px 10px; 
+  
 }
 
 .talent{
@@ -49,26 +52,30 @@ h2 {
   justify-content: center;
 }
 
+.map{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 body 
 {
 height: 125vh;
 margin-top: 80px;
 padding: 30px;
 background-size: cover;
-font-family: sans-serif;
+font-family: monospace;
 background: rgba(0, 128, 0, 0.3)
 
 }
 header {
-background-color: lightblue;
 position: fixed;
 left: 0;
 right: 0;
-top: 5px;
-height: 40px;
+top: 0px;
+height: 80px;
 display: flex;
 align-items: center;
-box-shadow: 0 0 25px 0 black;
+font-size: 20px;
 }
 header * {
 display: inline;
@@ -77,6 +84,10 @@ header li {
 margin: 20px;
 }
 header li a {
-color: blue;
+color: #ffffff;
 text-decoration: none;
+}
+
+body{
+  background: rgba(0, 121, 198, 1)
 }
