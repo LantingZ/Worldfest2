@@ -9,7 +9,8 @@
 }
 
 body {
-  background: rgba(0, 121, 198, 1)
+  background: rgba(0, 121, 198, 1);
+  font-family: monospace;
 }
 header {
 position: fixed;
@@ -40,7 +41,7 @@ font-weight: 600;
   display: block;
   width: 550px;
   height: 550px;
-  position: absolute;
+  position: relative;
   top: 0;
   bottom: 0;
   left: 0;
