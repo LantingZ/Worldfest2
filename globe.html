@@ -64,24 +64,5 @@
   <span class="dot" onclick="currentSlide(2)"></span>
   <span class="dot" onclick="currentSlide(3)"></span>
 </div>
-
-<script>
-      document.addEventListener("click", (evt) => {
-        const flyoutEl = document.getElementById("slideshow-container");
-        let targetEl = evt.target; // clicked element      
-        do {
-          if(targetEl == flyoutEl) {
-            // This is a click inside, does nothing, just return.
-            document.getElementById("slideshow-container").textContent = "Clicked inside!";
-            return;
-          }
-          // Go up the DOM
-          targetEl = targetEl.parentNode;
-        } while (targetEl);
-        // This is a click outside.      
-        document.getElementById("slideshow-container").textContent = "Clicked outside!";
-        <div class="mySlides fade"></div>
-      });
-    </script>
   </body>
 </html>
