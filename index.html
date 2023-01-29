@@ -4,7 +4,7 @@
 <Head>
   <!--this is for the icon later <link rel="icon" type="image/x-icon" href="">-->
   <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
+  <script src="index.js"></script>
 </Head>
 
 <Body>
@@ -13,26 +13,35 @@
     <nav>
       <ul>
         <li>
-          <a href="index.html"> Home </a>
+          <a href="index.html">
+            <button>Home</button> </a>
         </li>
         <li>
-          <a href="about.html"> About </a>
+          <a href="about.html"> 
+            <button >About</button> </a>
         </li>
-        <li>
-          <a href="globe.html"> Globe </a>
-        </li>
+ 
       </ul>
     </nav>
   </header>
-  
-  <img src="worldfest.png" alt="worldfest logo" width = 500px class= "logo">
 
-    <h1 class="welcome1">January 31, 2023</h1>
-    <h1 class="welcome2">4:00pm - 8:00pm</h2>
+  <div class="logo">
+    <img src="worldfest.png" alt="worldfest logo" width = 500px>
+  </div>
   
 
-    <button class="directions"> School Directions</button>
-    <button class="brochure"> View Brochure</button>
+  <div class="date">
+    <h1 class="welcome">January 31, 2023</h1>
+  </div>
+  <div class = "time">
+    <h1 class="welcome">4:00p.m. - 8:00p.m.</h1>
+  </div>
+  
+  <div class="buttons">
+    <button onClick="direction()"> School Directions</button>
+    <button onClick="brochure()"> View Brochure</button>
+    </div>
+   
 
   
 </Body>

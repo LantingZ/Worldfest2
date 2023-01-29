@@ -1,15 +1,19 @@
-.worldfest{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  color: white;
-
+h1{
+  color: #ffffff;
+  
 }
 
 .schedule{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  color: white;
+  font-size: 15px;
+  color: #000000;
+  border: 5px solid #ffffff;
+  background: #abdeff;
+  text-align: center;
+  margin-top: 25px;
 }
 
 h2 {
@@ -20,12 +24,14 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  color: #FFFFFF;
 }
 
 .food{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  color: #ffffff;
 }
 
 .item1 {
@@ -35,7 +41,7 @@ h2 {
   margin-right:10px;
   margin-bottom: 10px;
   margin-top: 20px;
-  border:solid #fff;  
+  border:solid #ABDEFF;  
   border-width:10px 10px 50px 10px; 
   
 }
@@ -68,6 +74,7 @@ background: rgba(0, 128, 0, 0.3)
 
 }
 header {
+background: #ABDEFF;
 position: fixed;
 left: 0;
 right: 0;
@@ -90,4 +97,81 @@ text-decoration: none;
 
 body{
   background: rgba(0, 121, 198, 1)
+}
+
+.textH{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: #ffffff;
+
+}
+
+button{
+  display:inline-block;
+  padding:0.5rem 1rem;
+  margin-bottom:1rem;
+  background: #ABDEFF;
+  border-color: #ABDEFF;
+  border-radius:5px;
+  border-width: 5px;
+  border-style: solid;
+  cursor:pointer;
+  font-family: monospace;
+  font-weight: 20;
+  font-size: 20px;
+  margin: 10px;
+  
+}
+
+button:hover {
+  background-color: #ABDEFF; /* Green */
+  color: #000000;
+  border-color: #FFFFFF;
+   transform: scale(1.05);
+
+}
+
+.aboutImg{
+  justify-content: center;
+  display: flex;
+  aligh-items: center;
+  margin-left: 40px;
+  margin-right:50px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border:solid #ffffff;  
+  border-width:10px; 
+}
+
+.about{
+  font-size: 15px;
+  color: #000000;
+  border: 5px solid #ffffff;
+  background: #abdeff;
+  text-align: center;
+  width: 300px;
+  padding: 15px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.food{
+  border: 5px solid #ffffff;
+  background: #abdeff;
+  text-align: center;
+  padding: 15px;
+  width: 800px;
+}
+
+.foodInfo{
+  font-size: 15px;
+  color: #000000;
+  text-align: left;
+  margin-right:50px;
+  width: 300px;
 }

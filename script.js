@@ -1,4 +1,4 @@
-(function() {
+/*(function() {
   var globe = planetaryjs.planet();
   globe.loadPlugin(autorotate(10));
   globe.loadPlugin(planetaryjs.plugins.earth({
@@ -93,7 +93,7 @@ if (visitCount) {
   localStorage.setItem("page_view", 1);
 }
 counterContainer.innerHTML = visitCount;
-
+*/
 let slideIndex = 1;
 showSlides(slideIndex);
 
@@ -122,3 +122,6 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+
+
+

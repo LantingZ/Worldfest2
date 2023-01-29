@@ -1,4 +1,4 @@
-(function() {
+/*(function() {
   var globe = planetaryjs.planet();
   globe.loadPlugin(autorotate(10));
   globe.loadPlugin(planetaryjs.plugins.earth({
@@ -66,3 +66,4 @@
     };
   };
 })();
+*/
