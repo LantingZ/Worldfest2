@@ -1,19 +1,16 @@
-h1{
-  color: #ffffff;
-  
-}
 
 .schedule{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  color: white;
-  font-size: 15px;
-  color: #000000;
+  font-size: 20px;
+  color: rgba(0, 121, 198, 1);
+  
   border: 5px solid #ffffff;
   background: #abdeff;
   text-align: center;
   margin-top: 25px;
+  font-family: Serif;
 }
 
 h2 {
@@ -35,15 +32,21 @@ h2 {
 }
 
 .item1 {
-  height:200px;
-  width: 200px;
   margin-left: 10px;
   margin-right:10px;
   margin-bottom: 10px;
   margin-top: 20px;
-  border:solid #ABDEFF;  
-  border-width:10px 10px 50px 10px; 
-  
+  font-size: 20px;
+  color: #000000;
+  background: #abdeff;
+  text-align: center;
+  width: 400px;
+  padding: 10px;
+  border: 5px solid #ffffff;
+}
+
+.item1:hover{
+  transform: scale(1.05);
 }
 
 .talent{
@@ -65,38 +68,39 @@ h2 {
 }
 body 
 {
-height: 125vh;
-margin-top: 80px;
-padding: 30px;
-background-size: cover;
-font-family: monospace;
-background: rgba(0, 128, 0, 0.3)
-
+  height: 125vh;
+  margin-top: 80px;
+  padding: 30px;
+  background-size: cover;
+  font-family: Helvetica;
+  background: rgba(0, 128, 0, 0.3)
+  
 }
 header {
-background: #ABDEFF;
-position: fixed;
-left: 0;
-right: 0;
-top: 0px;
-height: 80px;
-display: flex;
-align-items: center;
-font-size: 20px;
+  background: #ABDEFF !important;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  z-index: 1;
 }
 header * {
-display: inline;
+  display: inline;
 }
 header li {
-margin: 20px;
+  margin: 20px;
 }
 header li a {
-color: #ffffff;
-text-decoration: none;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 body{
-  background: rgba(0, 121, 198, 1)
+  background: rgba(0, 121, 198, 1);
 }
 
 .textH{
@@ -125,17 +129,17 @@ button{
 }
 
 button:hover {
-  background-color: #ABDEFF; /* Green */
+  background-color: #ABDEFF; 
   color: #000000;
   border-color: #FFFFFF;
-   transform: scale(1.05);
+  transform: scale(1.05);
 
 }
 
 .aboutImg{
   justify-content: center;
   display: flex;
-  aligh-items: center;
+  align-items: center;
   margin-left: 40px;
   margin-right:50px;
   margin-bottom: 10px;
@@ -145,12 +149,12 @@ button:hover {
 }
 
 .about{
-  font-size: 15px;
+  font-size: 20px;
   color: #000000;
   border: 5px solid #ffffff;
   background: #abdeff;
   text-align: center;
-  width: 300px;
+  width: 400px;
   padding: 15px;
 }
 
@@ -161,17 +165,101 @@ button:hover {
 }
 
 .food{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
   border: 5px solid #ffffff;
-  background: #abdeff;
-  text-align: center;
-  padding: 15px;
-  width: 800px;
+}
+a {
+  color: white;
 }
 
 .foodInfo{
-  font-size: 15px;
+  font-size: 20px;
   color: #000000;
-  text-align: left;
-  margin-right:50px;
-  width: 300px;
+  background: #abdeff;
+  text-align: center;
+  width: 400px;
+  padding: 15px;
 }
+
+.foodImg{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+  margin-right:50px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border:solid #ffffff;  
+  border-width:10px; 
+}
+
+.food:hover{
+  transform: scale(1.05);
+  border-color: #abdeff;
+}
+
+.talentImg{
+  margin-left: 40px;
+  margin-right:50px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border:solid #ffffff;  
+  border-width:10px; 
+  width: 600px;
+}
+
+.talent{
+  font-size: 20px;
+  color: #000000;
+  background: #abdeff;
+  text-align: center;
+  width: 300px;
+  padding: 30px;
+}
+
+.talentC{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  border: 5px solid #ffffff;
+}
+
+.talentC:hover{
+  transform: scale(1.05);
+  border-color: #abdeff;
+}
+
+button{
+  display:inline-block;
+  padding:0.5rem 1rem;
+  margin-bottom:1rem;
+  background: #ABDEFF;
+  border-color: #ABDEFF;
+  border-radius:5px;
+  border-width: 5px;
+  border-style: solid;
+  cursor:pointer;
+  font-family: monospace;
+  font-weight: 20;
+  font-size: 20px;
+  margin: 10px;
+  
+}
+
+button:hover {
+  background-color: #ABDEFF; 
+  color: #000000;
+  border-color: #FFFFFF;
+   transform: scale(1.05);
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
