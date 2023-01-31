@@ -10,7 +10,7 @@
   background: #abdeff;
   text-align: center;
   margin-top: 25px;
-  font-family: Serif;
+  font-family: sans-serif;
 }
 
 h2 {
@@ -72,7 +72,7 @@ body
   margin-top: 80px;
   padding: 30px;
   background-size: cover;
-  font-family: Helvetica;
+  font-family: sans-serif;
   background: rgba(0, 128, 0, 0.3)
   
 }
@@ -121,7 +121,7 @@ button{
   border-width: 5px;
   border-style: solid;
   cursor:pointer;
-  font-family: monospace;
+  font-family: sans-serif;
   font-weight: 20;
   font-size: 20px;
   margin: 10px;
@@ -243,7 +243,7 @@ button{
   border-width: 5px;
   border-style: solid;
   cursor:pointer;
-  font-family: monospace;
+  font-family: sans-serif;
   font-weight: 20;
   font-size: 20px;
   margin: 10px;

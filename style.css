@@ -4,7 +4,7 @@ height: 125vh;
 margin-top: 80px;
 padding: 30px;
 background-size: cover;
-font-family: monospace;
+font-family: sans-serif;
 background: rgba(0, 121, 198, 1)
 }
 
@@ -53,7 +53,7 @@ button{
   border-width: 5px;
   border-style: solid;
   cursor:pointer;
-  font-family: monospace;
+  font-family: sans-serif;
   font-weight: 20;
   font-size: 20px;
   margin: 10px;
